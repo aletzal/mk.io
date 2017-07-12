@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <!--
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  -->
+</head>
+<body>
+  <div class="project_content">
+    <h2>Устройство отображения текущего курса корабля с голосовым оповещением</h2>
+    <p>Данное устройство разрабатывалось для учебных целей, помощи курсантам Клуба Юных Моряков, чтобы не забывали каким курсом идет судно. ))) Схема устройства представлена на Рис.1. В качестве управляющего микроконтроллера выбран Atmel ATmega8A, Микросхема ISD1760 это цифровой диктофон, управляемый по spi, в нем записаны все необходимые фразы. В качестве индикации используются семисегментные идникаторы с общим анодом.</p>
+    <p>Работает следующим образом: при помощи кнопок "Единицы", "Десятки", "Сотни" устанавливается нужный курс, далее периодически произностися фраза "Курс х" (х - число, к примеру '123').</p>
+    <div style="text-align: center">
+      <a href="./projects/img/ku_orig.jpg" title="Схема курсоуказателя" rel="group_ku" class="fancybox"><img src="./projects/img/prev/ku_prev.jpg" alt="" style=""></img></a>
+      <p>Рис.1 Схема курсоуказателя</p>
+    </div>
+    <p>Конструктивно устройство состоит из двух плат, основная плата Рис.2 и плата с индикаторами Рис.3. Одна плата соединяется с другой через разъемы PBS и получается "бутерброд".</p>
+    <div style="text-align: center">
+      <a href="./projects/img/ku_board1_orig.jpg" title="Схема курсоуказателя" rel="group_ku" class="fancybox"><img src="./projects/img/prev/ku_board1_prev.jpg" alt="" style=""></img></a>
+      <p>Рис.2 Основная плата</p>
+    </div>
+    <div style="text-align: center">
+      <a href="./projects/img/ku_board2_orig.jpg" title="Схема курсоуказателя" rel="group_ku" class="fancybox"><img src="./projects/img/prev/ku_board2_prev.jpg" alt="" style=""></img></a>
+      <p>Рис.3 Плата с индикаторами</p>
+    </div>
+    <p>После некоторого времени использования была сделана доработка (на схеме нет), добавлен фоторезистор, для регулировки яркости индикаторов в зависимости от времени суток.</p>
+  </div>
+</body>
+</html>

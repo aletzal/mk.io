@@ -1,0 +1,148 @@
+#page {
+  background:#b7ebff url(http://www.nastol.com.ua/pic/201511/1920x1080/nastol.com.ua-156610.jpg) scroll 0 0 repeat;
+  padding:0; margin:0;
+}
+
+html {
+/*  background: url(https://im0-tub-ru.yandex.net/i?id=2e8892f3959108a8f13224e084831a75-l&n=13) no-repeat center center fixed; */
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+/*  background: url(http://atlasfintech.com/images/common-alpha-circuit-board.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+/*  -moz-background-size: cover; */
+/*  -o-background-size: cover; <- Deprecated */
+  background-size: cover;
+}
+/* Стрелка возврата в начало страницы */
+.scrolluptop {
+    width:45px;
+    height:45px;
+    opacity:0.3;
+    position:fixed;
+    top:50%;
+    right:55px;
+    margin-top:-75px;
+}
+
+h1 {
+  color: #08830a;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10%;
+/*  margin-top: 10%;*/
+}
+
+.project_content {
+  font-size: 15px;
+  line-height: 1.8em;
+  text-indent: 20px;
+}
+
+#ul {
+  display: block;
+  list-style-type: circle;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+body {
+/*  background: #f3f2f3; */
+  color: #000000;
+  opacity: 1;
+  font-family: Trebuchet MS, Arial, Times New Roman;
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+#container {
+/*  background: #FFFFFF;  #838283 */
+  margin: 30px auto;
+  width: 1000px;
+  min-height: 800px;
+  height: auto;
+}
+
+#header {
+  background:url(../img/bg_header.jpg) no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  width: 1000px;
+  display:block;
+}
+
+#navigation {
+  top: 250px;
+  position: fixed;
+  z-index: 1000;
+  background: #fff;
+  width: 1000px;
+  height: auto;
+}
+
+#menu_bg {
+  background: #f9f3f9 url(../img/bg_content.png) repeat center center;
+  margin:52px 0px auto 0px;
+  border-radius: 10px;
+  float:left;
+  width: 215px;
+  min-height: 200px;
+  height: 340px;
+}
+
+#menu {
+/*  background: #ebebeb; */
+  margin:0px 5px auto 0px;
+  padding: 20px 10px 10px 30px;
+/*  border-radius: 10px; */
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.content {
+  background: #f9f3f9 url(../img/bg_content.png) repeat center center;
+/*  margin:0px auto 0px auto; */
+  margin:52px 0px 0px 0px;
+  padding: 20px;
+  font-size: 15px;
+  color: #170c87;
+  font-weight: 500;
+  border-radius: 10px;
+  float: right;
+  width: 740px;
+  min-height:300px;
+  height: auto;
+  line-height: 1.8em;
+  text-indent: 20px;
+}
+
+.clear {
+  clear:both;
+}
+
+.footer {
+  position:relative;
+  background: #efecec url(../img/f2.png) repeat center center;;
+  margin:3px 0px 0px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 180px;
+  width: 980px;
+}
+
+#td {
+  position: relative;
+}
+.clone {
+position: absolute;
+top: 0;
+left: 0;
+}
+.clone > img {
+width: 20%;
+height: 20%;
+}

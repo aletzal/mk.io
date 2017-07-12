@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <!--
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  -->
+</head>
+<body>
+  <div class="project_content">
+    <h2>Простое реле времени</h2>
+    <p>Данное реле времени разрабатывалось для автоматизации како-то процесса в типографской конторе, уже не помню какого конкретно. В данном устройстве использован микроконтроллер Atmel ATtiny2313, для индикации семисегментные светодиодные индикаторы и MC33063 это DC-DC конвертер, для возможности питать устройство от 12В до 36В.</p>
+    <p>Работает следующим образом: при помощи кнопок "Секунды", "Минуты" устанавливается время, диапазон установки от 0 мин. 1 сек. до 9 мин. 59 сек., шаг 1 сек.. С помощью кнопки "Старт" срабатывает реле "Rel1", замыкает НР контакты и начинается отсчет, когда на индикаторе будет 000, реле выключается, контакты реле размыкаются.</p>
+    <div style="text-align: center">
+      <a href="./projects/img/rv_orig.jpg" title="Схема реле времени" rel="group_rv" class="fancybox"><img src="./projects/img/prev/rv_prev.jpg" alt="" style=""></img></a>
+      <p>Рис.1 Схема реле времени</p>
+    </div>
+    <p>Печатная плата представлена на Рис.2.</p>
+    <div style="text-align: center">
+      <a href="./projects/img/rv_board_orig.jpg" title="Плата реле времени" rel="group_rv" class="fancybox"><img src="./projects/img/prev/rv_board_prev.jpg" alt="" style=""></img></a>
+      <p>Рис.2 Плата реле времени</p>
+    </div>
+  </div>
+</body>
+</html>
